@@ -9,9 +9,9 @@
 nav{
     top: 0px;
     left: 0px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     height:150px;
     background-image: url('../static/assets/navwave.svg');
     display: flex;
@@ -20,7 +20,7 @@ nav{
     justify-content: space-between;
 }
 nav ul{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 90px;
     display: flex;
 }
@@ -44,7 +44,12 @@ nav ul li a:hover{
     height: 5vh;
     margin-right: 30px;
 }
+.login a{
+    color: white;
+    text-decoration: none;
+}
 .login:hover{
     cursor: pointer;
     font-weight: bolder;
 }
+

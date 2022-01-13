@@ -9,15 +9,13 @@ html
       script(src='')
     block style
   body
-    nav
-        
-        //- img(src="../static/assets/navwave.svg", alt="")     
+    nav     
         ul 
             li #[a(href="/") HOME] 
             li #[a(href="/") ABOUT] 
             li #[a(href="/") SERVICES]
             li #[a(href="/") CONTACT US] 
         div.login 
-            | LOGIN 
+            a(href="/login") LOGIN 
     block content
     block foot
