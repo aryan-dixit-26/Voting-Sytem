@@ -17,7 +17,13 @@ app.set('views', path.join(__dirname, "views"));
 
 app.get("/", (req,res)=>{
 
-    res.render("base.pug");
+    res.render("home.pug");
+
+})
+
+app.get("/login", (req,res)=>{
+
+    res.render("login.pug");
 
 })
 

@@ -2,19 +2,22 @@ doctype html
 html
   head
     title My Site - #{title}
+    link https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
     style 
-        include ../static/style.css
+        include ../static/style/style.css
     block scripts
       script(src='')
     block style
   body
-    nav     
+    nav
+        
+        //- img(src="../static/assets/navwave.svg", alt="")     
         ul 
             li #[a(href="/") HOME] 
             li #[a(href="/") ABOUT] 
             li #[a(href="/") SERVICES]
             li #[a(href="/") CONTACT US] 
-        button 
+        div.login 
             | LOGIN 
     block content
     block foot
