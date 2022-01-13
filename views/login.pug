@@ -5,5 +5,11 @@ block style
         include ../static/style/loginStyle.css
 
 block content 
-    div.box
-        
+    div.box#head-svg
+        | SVG-1 
+    h1 Welcome to E-VOTER
+    form(action="/" method="post")
+        input(type="text" class="input" name="name" placeholder="User Name")
+        input(type="password" class="input" name="password" placeholder="Password")
+    div.box#foot-svg
+        | SVG-2
