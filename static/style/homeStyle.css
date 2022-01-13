@@ -13,11 +13,35 @@
 .t-box{
     height: 250px;
     width: 250px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     border: 1px solid #31607A;
     border-radius: 20px;
     box-shadow: 10px 10px 12px 5px #31607A;
 
+}
+.t-box h3{
+    font-size: 1.25rem;
+}
+.t-box p{
+    font-size: 1.25rem;
+}
+.t-box button{
+    width: 25%;
+    height: 15%;
+    font-size: 1.25rem;
+    background-color: #31607A;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #31607A;
+    box-shadow: 5px 5px 15px 2px #31607A;
+}
+.t-box button:hover{
+    cursor: pointer;
+    width: 26%;
+    height: 16%;
 }
 .textResult{
     text-align: center;
@@ -27,9 +51,18 @@
     justify-content: center;
     /* align-items: center; */
     position: absolute;
-    left: 45%;
+    left: 35%;
     color: white;
     z-index: 1;
+}
+.resultHead{
+    display: flex;
+    justify-content: space-aroun3;
+}
+.resultHead img{
+    width: 80%;
+    margin-top: 100px;
+    height: 400px;
 }
 .resultwave{
     margin-top: 50px;
@@ -42,7 +75,3 @@
     /* background-repeat: no-repeat, repeat; */
     left: 0px;
 }
-/* 
-.motion{
-    transform: translateY(-20%);
-} */
