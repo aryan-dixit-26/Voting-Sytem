@@ -9,7 +9,7 @@
 nav{
     top: 0px;
     left: 0px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     overflow: hidden;
     height:150px;
