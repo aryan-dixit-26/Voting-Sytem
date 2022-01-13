@@ -2,9 +2,19 @@ doctype html
 html
   head
     title My Site - #{title}
+    style 
+        include ../static/style.css
     block scripts
       script(src='')
     block style
   body
+    nav     
+        ul 
+            li #[a(href="/") HOME] 
+            li #[a(href="/") ABOUT] 
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") CONTACT US] 
+        button 
+            | LOGIN 
     block content
     block foot
