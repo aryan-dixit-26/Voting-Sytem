@@ -57,7 +57,7 @@
 }
 .resultHead{
     display: flex;
-    justify-content: space-aroun3;
+    justify-content: space-around;
 }
 .resultHead img{
     width: 80%;
