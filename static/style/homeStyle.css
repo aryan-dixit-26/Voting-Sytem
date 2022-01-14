@@ -21,6 +21,12 @@
   border-radius: 20px;
   box-shadow: 10px 10px 12px 5px #31607a;
 }
+.t-box:hover{
+  height:251px;
+  width:251px;
+  background-color: whitesmoke;
+
+}
 .t-box h3 {
   font-size: 1.25rem;
 }
@@ -56,6 +62,14 @@
   color: white;
   z-index: 1;
   text-shadow: 2px 2px black;
+}
+.fa-chevron-right{
+  font-weight: bolder;
+  font-size: xx-large;
+  color:#31607a;
+  position: absolute;
+  right:80px;
+  top:530px;
 }
 
 .resultHead {
