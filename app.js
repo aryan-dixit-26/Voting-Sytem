@@ -11,7 +11,7 @@ app.use(express.urlencoded());
 
 // Pug Specific
 
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, "views"));
 
 
