@@ -76,7 +76,7 @@
   /* border: 2px solid red; */
   height: 500px;
   width: 100%;
-  background: url("../static/assets/resultbubble.svg") no-repeat center
+  background: url("../assets/resultbubble.svg") no-repeat center
     center/cover;
   /* background-repeat: no-repeat, repeat; */
   left: 0px;
@@ -85,14 +85,13 @@
 }
 @keyframes shift {
   0% {
-
     left: 0%;
   }
- 
+
   50% {
     left: 10%;
   }
-  
+
   100% {
     left: 0%;
   }
