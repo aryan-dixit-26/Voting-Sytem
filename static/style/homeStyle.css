@@ -21,6 +21,10 @@
   border-radius: 20px;
   box-shadow: 10px 10px 12px 5px #31607a;
 }
+.t-box:hover{
+  height: 252px;
+  /* width: 250px; */
+}
 .t-box h3 {
   font-size: 1.25rem;
 }
