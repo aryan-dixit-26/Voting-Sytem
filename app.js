@@ -17,13 +17,13 @@ app.set('views', path.join(__dirname, "views"));
 
 app.get("/", (req,res)=>{
 
-    res.render("index.ejs");
+    res.render("index");
 
 })
 
 app.get("/login", (req,res)=>{
 
-    res.render("login.ejs");
+    res.render("login");
 
 })
 
