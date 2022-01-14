@@ -17,13 +17,13 @@ app.set('views', path.join(__dirname, "views"));
 
 app.get("/", (req,res)=>{
 
-    res.render("home.pug");
+    res.render("index.ejs");
 
 })
 
 app.get("/login", (req,res)=>{
 
-    res.render("login.pug");
+    res.render("login.ejs");
 
 })
 
@@ -38,4 +38,4 @@ app.get("/login", (req,res)=>{
 
 app.listen(port, ()=>{
     console.log(`The port is running at ${port}`);
-})
+});
