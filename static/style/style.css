@@ -4,9 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Architects Daughter', cursive;
-
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 }
 nav{
+    position: sticky;
     top: 0px;
     left: 0px;
     /* position: absolute; */
