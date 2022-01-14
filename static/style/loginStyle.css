@@ -79,18 +79,26 @@ input{
     border-radius: 5px;
 }
 
-#form-box-signUp button{
+#form-box-signUp a{
     width: 50%;
     height: 100%;
     outline: none;
     box-shadow: 5px 5px 3px #7f9cac;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#form-box button{
+#form-box a{
     width: 50%;
     height: 100%;
     outline: none;
     box-shadow: 5px 5px 3px #7f9cac;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
 }
 
 #btn-Login{
@@ -189,3 +197,7 @@ img{
 #loginForm{
 
 } */
+
+button{
+    cursor: pointer;
+}
