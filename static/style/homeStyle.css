@@ -25,8 +25,6 @@
 
   height: 252px;
   /* width: 250px; */
-
-
 }
 .t-box h3 {
   font-size: 1.25rem;
@@ -57,7 +55,6 @@
   margin-top: 200px;
   display: inline-flex;
   justify-content: center;
-  /* align-items: center; */
   position: absolute;
   left: 40%;
   color: white;
@@ -65,84 +62,58 @@
   text-shadow: 2px 2px black;
 }
 .fa-chevron-right{
+  font-size: 40px;
   font-weight: bolder;
-  font-size: xx-large;
-  color:#31607a;
   position: absolute;
-  right:80px;
+  right: 60px;
   top:530px;
+  color:#31607a;
 }
-
+.fa-chevron-right:hover{
+  font-size: 44px;
+  cursor: pointer;
+}
 .resultHead {
   display: flex;
-
-  /* justify-content: space-between; */
 }
 .resultHead img {
   width: 60%;
   margin-top: 100px;
   height: 400px;
-  /* box-shadow: 0px 0px 15px 2px grey; */
 }
 .resultwave {
   margin-top: 50px;
   z-index: -1;
-  position: relative;
-  /* border: 2px solid red; */
   height: 500px;
   width: 100%;
-  background: url("../assets/resultbubble.svg") no-repeat center
-    center/cover;
-  /* background-repeat: no-repeat, repeat; */
   left: 0px;
 
-  /* animation: shift infinite;
-  animation-duration: 2s; */
 }
 
-/* @keyframes shift {
-  0% {
-    left: 0%;
-  }
 
-  50% {
-    left: 10%;
-  }
+.motion{
+  position:absolute;
+  transform: translateY(-20%);
+}
+svg{
+  margin-top: 100px;
+}
 
-  100% {
-    left: 0%;
-  }
-} */
 .finalresult {
   height: 300px;
   position: relative;
   display: flex;
   border-radius: 100px;
   flex-wrap: wrap;
-  /* z-index: -1; */
   background-color: #31607a;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 7px;
-  /* margin-top: 10px; */
-  /* border: 2px solid black; */
-  /* margin-bottom: 40px; */
 }
 .r-box {
   height: 150px;
   width: 200px;
-  /* display: flex; */
   background-color: white;
-  /* flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
-  /* border: 1px solid white; */
   border-radius: 20px;
   box-shadow: 10px 10px 14px 2px #4e4b4b;
-}
-
-#resultup {
-  margin: 0;
-  /* height: 120px; */
-  transform: scale(-1);
 }
