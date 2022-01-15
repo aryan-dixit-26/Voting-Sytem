@@ -1,131 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Architects Daughter', cursive;
-    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-}
-nav{
-    /* position: sticky; */
-    top: 0px;
-    left: 0px;
-    /* position: absolute; */
-    width: 100%;
-    /* overflow: hidden; */
-    height:25vh;
-    background-image: url('../assets/navwave.svg');
-    display: flex;
-    color: white;
-    font-size: 1.25rem;
-    justify-content: space-between;
-}
-nav ul{
-    margin-top: 30px;
-    margin-left: 30px;
-    display: flex;
-}
-nav ul li{
-    padding: 0px 20px;
-    list-style: none;
-    
-}
-nav ul li a{
-    text-shadow: 2px 2px black;
-    text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
-}
-nav ul li a:hover{
-    font-weight: bolder;
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
 
 }
-.login{
-    margin-top: 40px;
-    width: 100px;
-    height: 5vh;
-    margin-right: 30px;
+nav {
+  /* position: sticky; */
+  top: 0px;
+  left: 0px;
+  /* position: absolute; */
+  width: 100%;
+  /* overflow: hidden; */
+  height: 25vh;
+  background-image: url("../assets/navwave.svg");
+  display: flex;
+  color: white;
+  font-size: 1.25rem;
+  justify-content: space-between;
 }
-.login a{
-    color: white;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
+nav ul {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
 }
-.login:hover{
-    cursor: pointer;
-    font-weight: bolder;
+nav ul li {
+  padding: 0px 20px;
+  list-style: none;
+}
+nav ul li a {
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.login {
+  margin-top: 40px;
+  width: 100px;
+  height: 5vh;
+  margin-right: 30px;
+}
+.login a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+}
+.login:hover {
+  cursor: pointer;
+  font-weight: bolder;
 }
 
-.hamburger{
-    position: absolute;
-    /* border: 2px solid black; */
-    width: 1.75rem;
-    height: 2rem;
-    display: flex;
-    flex-direction: column;
-    background-color: #31607a;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 2px;
-    top: 5vh;
-    right: 3em;
-    visibility: hidden;
+.hamburger {
+  position: absolute;
+  /* border: 2px solid black; */
+  width: 1.75rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #31607a;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2px;
+  top: 5vh;
+  right: 3em;
+  visibility: hidden;
 }
 
-.line{
-    width: 2em;
-    height: .15rem;
-    background-color: white;
+.line {
+  width: 2em;
+  height: 0.15rem;
+  background-color: white;
 }
-
-
 
 @media screen and (max-width: 1174px) {
-    nav ul li{
-        padding: 0px 10px;
-    }
-
+  nav ul li {
+    padding: 0px 10px;
+  }
 }
 
-@media screen and (max-width: 1000px){
-    ul{
-        visibility: hidden;
-    }
-    .hamburger{
-        visibility: visible;
-    }
-    .login{
-        visibility: hidden
-    }
-    
+@media screen and (max-width: 1000px) {
+  ul {
+    visibility: hidden;
+  }
+  .hamburger {
+    visibility: visible;
+  }
+  .login {
+    visibility: hidden;
+  }
 }
 
-@media screen and (max-width: 478px){
-    .login{
-        position: absolute;
-    }
-    
+@media screen and (max-width: 478px) {
+  .login {
+    position: absolute;
+  }
 }
 
-@media screen and (max-width: 412px){
-    ul{
-        position: absolute;
-        flex-direction: column;
-    }
-    
+@media screen and (max-width: 412px) {
+  ul {
+    position: absolute;
+    flex-direction: column;
+  }
 }
 
-
-
-@media screen and (max-height: 570px){
-    ul{
-        visibility: hidden;
-    }
-    .hamburger{
-        visibility: visible;
-    }
-    .login{
-        visibility: hidden
-    }
-    
+@media screen and (max-height: 570px) {
+  ul {
+    visibility: hidden;
+  }
+  .hamburger {
+    visibility: visible;
+  }
+  .login {
+    visibility: hidden;
+  }
 }
