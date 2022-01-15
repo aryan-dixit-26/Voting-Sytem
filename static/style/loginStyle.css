@@ -162,6 +162,9 @@ input {
   background-color: #31607a;
   font-size: 1rem;
   box-shadow: 5px 5px 3px #7f9cac;
+  position: absolute;
+  top: 85%;
+  left: 25%;
 }
 .image h1 {
   font-size: 3.5rem;
@@ -181,7 +184,7 @@ input {
 
 }
 
-img {
+.image img {
   width: 70%;
   height: 85%;
 }
