@@ -116,3 +116,65 @@
   border-radius: 20px;
   box-shadow: 10px 10px 14px 2px #4e4b4b;
 }
+.textElection {
+  text-align: center;
+  color: #31607a;
+  font-size: 2rem;
+  text-shadow: 1px 1px grey;
+  position: absolute;
+  left: 18em;
+  margin: 10px;
+}
+
+.electionform{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  height: 500px;
+}
+.formbox{
+  padding: 30px;
+  width: 30%;
+  height: 400px;
+  display: flex;
+  border-radius: 15px;
+  margin: 60px;
+  position: absolute;
+  left:100px ;
+
+  align-items: center;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 14px 2px #4e4b4b;
+}
+
+
+.input1{
+  border-bottom: 2px solid #31607a ;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #7f9cac;
+}
+.election-btn{
+  position: absolute;
+  right: 400px;
+  top: 200px;
+  
+}
+.elec-btn{
+  width: 250px;
+  height: 80px;
+  background-color: #31607a;
+  color: white;
+  font-size: 100%;
+  border-radius: 5px;
+  border: 1px solid #31607a;
+  box-shadow: 5px 5px 15px 2px #4e4b4b;
+  font-size: 18px;
+}
+.elec-btn:hover{
+  width: 252px;
+  height: 82px;
+}
+
+
