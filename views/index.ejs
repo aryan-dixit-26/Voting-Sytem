@@ -49,8 +49,14 @@
                 <div class="r-box" id="r-box2"></div>
                 <div class="r-box" id="r-box3"></div>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.2/dist/kute.min.js"></script>
-            <script src="../static/javascript/home.js"></script>
+            <script>
+                const tween = KUTE.fromTo(
+                    '#blob1',
+                    { path: '#blob1' },
+                    { path: '#blob2' },
+                    { repeat: 999, duration: 3000, yoyo: true }
+                ).start();
+            </script>
     </body>
 
 </html>

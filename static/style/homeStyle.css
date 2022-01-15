@@ -95,10 +95,12 @@
     center/cover;
   /* background-repeat: no-repeat, repeat; */
   left: 0px;
-  animation: shift infinite;
-  animation-duration: 2s;
+
+  /* animation: shift infinite;
+  animation-duration: 2s; */
 }
-@keyframes shift {
+
+/* @keyframes shift {
   0% {
     left: 0%;
   }
@@ -110,7 +112,7 @@
   100% {
     left: 0%;
   }
-}
+} */
 .finalresult {
   height: 300px;
   position: relative;
