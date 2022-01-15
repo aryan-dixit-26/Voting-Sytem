@@ -375,7 +375,7 @@ button {
       left: 40%;
       text-align: center;
     }
-    img{
+    .image img{
       position: absolute;
       top: 20%;
 
