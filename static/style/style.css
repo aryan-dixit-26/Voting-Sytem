@@ -13,7 +13,7 @@ nav{
     /* position: absolute; */
     width: 100%;
     /* overflow: hidden; */
-    height:150px;
+    height:25vh;
     background-image: url('../assets/navwave.svg');
     display: flex;
     color: white;
@@ -56,3 +56,76 @@ nav ul li a:hover{
     font-weight: bolder;
 }
 
+.hamburger{
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 1.75rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #31607a;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    top: 5vh;
+    right: 3em;
+    visibility: hidden;
+}
+
+.line{
+    width: 2em;
+    height: .15rem;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 1174px) {
+    nav ul li{
+        padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    ul{
+        visibility: hidden;
+    }
+    .hamburger{
+        visibility: visible;
+    }
+    .login{
+        visibility: hidden
+    }
+    
+}
+
+@media screen and (max-width: 478px){
+    .login{
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width: 412px){
+    ul{
+        position: absolute;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media screen and (max-height: 570px){
+    ul{
+        visibility: hidden;
+    }
+    .hamburger{
+        visibility: visible;
+    }
+    .login{
+        visibility: hidden
+    }
+    
+}
